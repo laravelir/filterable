@@ -1,7 +1,7 @@
 {
-    "name": "miladimos/package-skeleton",
+    "name": "laravelir/filterable",
     "description": "test description",
-    "homepage": "https://github.com/miladimos/package-skeleton",
+    "homepage": "https://github.com/laravelir/filterable",
     "type": "library",
     "version": "0.1.0",
     "keywords": [
@@ -22,7 +22,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vendor\\Package\\": "src/"
+            "Laravelir\\Filterable\\": "src/"
         },
         "files": [
             "./src/helpers.php"
@@ -30,16 +30,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Vendor\\Package\\Tests\\": "tests"
+            "Laravelir\\Filterable\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\Package\\Providers\\PackageServiceProvider"
+                "Laravelir\\Filterable\\Providers\\FilterableServiceProvider"
             ],
             "aliases": {
-                "Package": "Vendor\\Package\\Facades\\PackageFacade"
+                "Filterable": "Laravelir\\Filterable\\Facades\\FilterableFacade"
             }
         }
     },

@@ -1,32 +1,30 @@
-- [![Starts](https://img.shields.io/github/stars/miladimos/package-skeleton?style=flat&logo=github)](https://github.com/miladimos/package-skeleton/forks)
-- [![Forks](https://img.shields.io/github/forks/miladimos/package-skeleton?style=flat&logo=github)](https://github.com/miladimos/package-skeleton/stargazers)
-  [![Total Downloads](https://img.shields.io/packagist/dt/miladimos/laravel-.svg?style=flat-square)](https://packagist.org/packages/miladimos/laravel-)
+- [![Starts](https://img.shields.io/github/stars/laravelir/filterable?style=flat&logo=github)](https://github.com/laravelir/filterable/forks)
+- [![Forks](https://img.shields.io/github/forks/laravelir/filterable?style=flat&logo=github)](https://github.com/laravelir/filterable/stargazers)
+  [![Total Downloads](https://img.shields.io/packagist/dt/laravelir/laravel-.svg?style=flat-square)](https://packagist.org/packages/laravelir/laravel-)
 
+# filterable
 
-# laravel Package
-
-A package for fun
+a filterable package for laravel
 
 ### Installation
 
 1. Run the command below to add this package:
 
 ```
-composer require vendor/package
+composer require laravel/filterable
 ```
 
 2. Open your config/app.php and add the following to the providers array:
 
 ```php
-Vendor\Package\Providers\PackageServiceProvider::class,
+Laravelir\Filterable\Providers\FilterableServiceProvider::class,
 ```
 
-3. Run the command below to publish the package config file config/package.php:
+1. Run the command to install the package:
 
 ```
-php artisan vendor:publish
+php artisan filterable:install
 ```
-
 
 ## Testing
 
