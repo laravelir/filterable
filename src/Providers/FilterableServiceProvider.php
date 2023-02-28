@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\Filterable\Providers;
+namespace Laravelir\Filterable\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Laravelir\Filterable\Console\Commands\InstallPackageCommand;
