@@ -20,11 +20,7 @@ class FilterableServiceProvider extends ServiceProvider
         $this->registerFacades();
     }
 
-    /**
-     * Bootstrap services.
-     *
-     * @return void
-     */
+
     public function boot()
     {
         $this->registerCommands();
